@@ -7,4 +7,5 @@ A lending company wanted to keep up with the technolagy and leverage machine lea
     * Undersampling: ClusterCentroids algorithm
     * Combinatorial approach of over- and undersampling: SMOTEENN algorithm
     * Predict credit risk: BalancedRandomForestClassifier and EasyEnsembleClassifier
+## Results:
 
