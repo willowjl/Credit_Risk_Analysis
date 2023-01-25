@@ -41,4 +41,6 @@ A lending company wanted to keep up with the technolagy and leverage machine lea
       
       * Ensemble Learners (Easy Ensemble AdaBoost Classifier)
       [this model unfortunately had some error]
-      
+   
+   ## Summary
+   ### the majority of the model had a decent accuracy score with the exception for undersampling and oversampling. Balanced Random Forest had the highest accuracy and a high precision rate. As a data analysis, the lending company should the latter for their credit risk analysis.
