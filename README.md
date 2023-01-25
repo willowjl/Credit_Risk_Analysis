@@ -12,28 +12,33 @@ A lending company wanted to keep up with the technolagy and leverage machine lea
 ### Despite some minor error with the EasyEnsembleClassifier, we were able to successfully model each approach.
       * Oversampling or RandomOverSampler 
       
-    Balanced Accuracy score: 65.3%
-    "High Risk": precision rate - 1%, recall rate - 75%
-    "Low Risk:" precision rate - 100%, recall rate - 62%
+      Balanced Accuracy score: 71%
+      "High Risk": precision rate - 1%, recall rate - 69%
+      "Low Risk:" precision rate - 100%, recall rate - 73%%
 
       * Oversampling (SMOTE)
       
-    Balanced Accuracy score: 65.3%
-    "High Risk": precision rate - 1%, recall rate - 75%
-    "Low Risk:" precision rate - 100%, recall rate - 62%
+      Balanced Accuracy score: 61.3%
+      "High Risk": precision rate - 1%, recall rate - 69%
+      "Low Risk:" precision rate - 100%, recall rate - 74%%
 
       * Undersampling
       
-    Balanced Accuracy score: 65.3%
-    "High Risk": precision rate - 1%, recall rate - 75%
-    "Low Risk:" precision rate - 100%, recall rate - 62%
+      Balanced Accuracy score: 61.3%
+      "High Risk": precision rate - 1%, recall rate - 74%
+      "Low Risk:" precision rate - 100%, recall rate - 48%
 
       * Combination
       
-    Balanced Accuracy score: 65.3%
-    "High Risk": precision rate - 1%, recall rate - 75%
-    "Low Risk:" precision rate - 100%, recall rate - 62%
+      Balanced Accuracy score: 74.3%
+      "High Risk": precision rate - 1%, recall rate - 69%
+      "Low Risk:" precision rate - 100%, recall rate - 80%
 
       * Ensemble Learners (BalancedRandomForestClassifier)
+      Balanced Accuracy score: 99.6%
+      "High Risk": precision rate - 73%, recall rate - 34%
+      "Low Risk:" precision rate - 100%, recall rate - 100%
+      
       * Ensemble Learners (Easy Ensemble AdaBoost Classifier)
+      [this model unfortunately had some error]
       
